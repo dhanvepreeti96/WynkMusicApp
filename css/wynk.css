@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Uchen&display=swap');
+body{
+   background: url(../Images/pexels-pixabay-534283.jpg) no-repeat center center/cover;
+   background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'Uchen', serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: red;
+    color:white;
+}
+nav ul li{
+    padding: 0 14px;
+    cursor: pointer;
+}
+.brand i{
+
+   padding: 0px 5px;
+  
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 72vh;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin:18px auto;
+    width:70%;
+    border-radius: 12px;
+    background: url('../Images/disc-red.jpg') no-repeat center center/cover;
+}
+.container h1{
+    padding:5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 2.5rem;;
+    color: black;
+}
+#artist{
+    font-size: 1.3rem;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+.Mtext{
+height: 330px;
+width:450px;
+margin-left:80px;
+margin-top: 20px;
+background-color: rgba(243, 53, 53, 0.589);
+border-radius: 9px;
+
+}
+#title{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container .cover img{
+    margin-top: 18px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    height: 230px;
+    width:300px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:black;
+    color:white;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .bottom .icons i{
+    margin-top: 10px;
+    margin:15px;
+    cursor: pointer;
+}
+#mybar{
+    margin-top:4px;
+    width:80vw;
+    cursor: pointer;
+    color: red;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+    font-family: 'Uchen', serif;
+    display: flex;
+    align-items: center;
+    margin-top:54px;
+}
+.songInfo img{
+    height: 55px;
+    width:70px;
+    margin-top:5px;
+    padding-right: 15px;
+    opacity:0;
+    transition: opacity 0.3s ease-in;
+}
+#text{
+    text-align: center;
+}
+
+@media screen and (max-width: 730px){
+
+    .container{
+        min-height: 40vh;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        margin:18px auto;
+        width:70%;
+        border-radius: 12px;
+        background: url('../Images/disc-red.jpg') no-repeat center center/cover;
+    }
+
+    .container h1{
+        padding:5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font: size 2.7rem;;
+        color: black;
+    }
+
+.Mtext{
+height: 330px;
+width:300px;
+margin-left:5px;
+margin-top: 60px;
+background-color: rgba(243, 53, 53, 0.589);
+border-radius: 9px;
+
+}
+.container .cover img{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    height: 200px;
+    width:200px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+}

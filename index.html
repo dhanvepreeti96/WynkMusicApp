@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wynk Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/wynk.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><span id="logo"><i class="fa-solid fa-wifi"></i></span>Wynk</li>
+        </ul>
+    </nav>
+    <div class="container">
+            <h1>Your Personalize Mixes</h1>
+            <div class="Mtext">
+                <h3 id="artist">K. J. Yesudas</h3>
+                <div class="cover">
+                    <img src="./Images/Aaj Se Pehle Aaj Se Jyada.jpg">
+                </div>
+               
+                <marquee width="100%" direction="right" height="20px" id="title">
+                    Aaj Se Pehle Aaj Se Jyada
+                </marquee>
+            </div>            
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="mybar" value="0" min="0" max="100">
+        <div class="icons" >
+            <i class="fas fa-backward" id="prev" title="previous"></i>
+            <i class="fas fa-play main_button" id="play" title="play"></i>
+            <i class="fas fa-forward" id="next" title="next"></i>
+        </div>
+        <div>
+            <audio src="./Music/Aaj Se Pehle Aaj Se Jyada.mp3"></audio>
+        </div>
+        <div class="songInfo">
+            <img src="./Images/musicgif.gif" alt="wynk" id="gifImage"><span id="text">Aaj Se Pehle Aaj Se Jyada</span>
+        </div>
+    </div>
+    <script src="./js/upwynk.js"></script>
+</body>
+</html>
+ 
+ 
